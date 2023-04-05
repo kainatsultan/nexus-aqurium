@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <!-- //////////////nav bar/////////// -->
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <div class="container-fluid m-0 p-0 pt-3">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary header">
+        <div class="container-fluid navMobileMode">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../../images/logo pic.png"
+              alt="nexus logo"
+              height="85px"
+              width="85px"
+              class="LOGO"
+            />
+
+            <span
+              style="
+                color: aliceblue;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+                  'Trebuchet MS', sans-serif;
+                font-style: italic;
+              "
+            >
+              NEXUS AQURIUM
+            </span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse"
+            style="z-index: 999999; text-align: right; width: 100px"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  style="color: #fff"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../pages/About/about.html" target="_blank" style="color: #fff">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../pages/contact/contact.html" target="_blank" style="color: #fff">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: #fff"
+                >
+                  Gallery
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../../pages/Species/gphotos.html" target="_blank">Species</a></li>
+                  <li><a class="dropdown-item" href="../../pages/marine life/marine.html" target="_blank">Marine Animals</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../pages/Event/Event.html" style="color: #fff">Event</a>
+              </li>
+              <a
+                class="nav-link"
+                href="../../pages/online booking/online.html"
+                target="_blank"
+                style="color: #fff"
+                >Online Booking</a
+              >
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <!-- //////////////slider/////////// -->
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../../images/1b.jpg" class="d-block w-100" alt="..." />
+
+          <div class="carousel-caption">
+            <h1
+              class="animate__animated animate__bounceInRight"
+              style="animation-delay: 0.5s"
+            >
+              WELCOME TO NEXUS AQURIUM
+            </h1>
+            <p
+              class="animate__animated animate__bounceInLeft d-none d-md-block"
+              style="animation-delay: 1.5s"
+            >
+              Marine World Deals Exclusively In Saltwater Aquariums And Marine
+              Fish, Corals And Invertebrates. Marine World Offers The Best
+              Aquarium Equipment, Feed And Supplements The World Has To Offer
+              Along With Healthy Premium Livestock To Sustain Your Artificial
+              Piece Of Ocean. Providing An Extensive Variety Of Services, Marine
+              World Has Cemented Its Position As The Industry Leader Of Marine
+              Aquarium Designs In Pakistan. Customer Satisfaction Is Our
+              Uttermost Priority.<br /><br />
+              Marine World Has Created And Maintained Marine Aquariums For
+              Restaurants, Hotels And Corporate Sector. Marine World Has Worked
+              For Some Of The Biggest Names In Corporate Sector Such As Alied
+              Bank, Sharif Group, Haseeb Waqas Group, Health Ways
+              Pharmaceuticals, Getz Pharma. Each Aquarium Installation Is Unique
+              In Its Own Way Ensuring Both A Personal And Professional Service
+              Is Delivered.<br /><br />
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../../images/sb.jpg" class="d-block w-100" alt="..." />
+
+          <div class="carousel-caption">
+            <h1
+              class="animate__animated animate__bounceInRight"
+              style="animation-delay: 0.5s"
+            >
+              WELCOME TO NEXUS AQURIUM
+            </h1>
+            <p
+              class="animate__animated animate__bounceInLeft d-none d-md-block"
+              style="animation-delay: 1.5s"
+            >
+              In Order To Provide Our Customers With A Huge Range Of Marine
+              Hobby Related Equipment, Feed And Supplements Marine World Has
+              Done Collaborations With Renowned Companies Obtaining Their
+              Distributorship, Such As Of Two Little Fish, Marine Sources.<br />
+
+              We Also Ensure Availability Of Products From Other Brands Such As
+              Red Sea, OCTO, Two Little Fishes, Neptune, Vitalis Feed, Maxpact,
+              Atman, Aquamacro, API, Boyu, CarbiSea, Haliea, Hikari, Jebao,
+              Ocean Nutrition, Prodibio, Seachem, Thera, Weipro. All The Dry
+              Good Are In Stock And Available Online Or In Our Storehouse.<br /><br />
+
+              We Ensure The Highest Standard Of Livestock, All Of Our Fish Are
+              Net-Caught And Corals Are Collected In Eco-Friendly Method. We
+              Quarantine Our Livestock To Make Sure That Only Healthy Premium
+              Livestock Reach Our Customers.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../../images/b1.jpg" class="d-block w-100" alt="..." />
+
+          <div class="carousel-caption">
+            <h1
+              class="animate__animated animate__bounceInRight"
+              style="animation-delay: 0.5s"
+            >
+              WELCOME TO NEXUS AQURIUM
+            </h1>
+            <p
+              class="animate__animated animate__bounceInLeft d-none d-md-block"
+              style="animation-delay: 1.5s"
+            >
+              All The Specimens That Are Up For Sale Are Free From White Spots,
+              Velvet And Flatworms And Will Thrive In Your Artificial Piece Of
+              Ocean.<br /><br />
+
+              To ensure the sustainability of the natural marine ecosystem for
+              the future generation, by enhancing the living environment for
+              marine organisms while creating a sense of joy and tranquillity
+              for human beings.<br />
+
+              Driven by a shared passion for marine life among st our management
+              and employees, we actively engage in research and development to
+              continuously improve our products as well as develop new ones;
+              with the goal of creating a thriving marine ecosystem in an
+              enclosed environment. <br />In addition to our core business in
+              marine aquarium products, we are also involved in the commercial
+              aquaculture sector using our customized water purification system
+              which produces a higher yield without the need of supplements.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <!-- //////////////bUTTON SECTION/////////// -->
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <div class="container-fluid btn-main d-flex justify-content-evenly">
+      <a href="../../pages/Species/gphotos.html" target="_blank"
+        ><button class="btn">
+          <span class="btn-text-one"></span>
+          <span class="btn-text-two"><h5>Species</h5></span>
+        </button></a
+      >
+
+      <a href="../../pages/marine life/marine.html" target="_blank"
+        ><button class="btn2">
+          <span class="btn-text-one2"></span>
+          <span class="btn-text-two2"><h5>Marine life</h5></span>
+        </button></a
+      >
+
+      <a href="#feeds"
+        ><button class="btn3">
+          <span class="btn-text-one3"></span>
+          <span class="btn-text-two3"><h5>Feeding</h5></span>
+        </button></a
+      >
+    </div>
+
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <!-- //////////////video section/////////// -->
+    <!-- """""""""""""""""""""""""""""""""""""""""" -->
+    <div class="container-fluid ww1">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
+        <div class="col-md-12">
+          <h1 class="fcolor" id="feeds">Feeding System In Aqurium</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <video loop autoplay controls muted class="w-100">
+              <source src="../../vedio/3152741102.mp4" />
+            </video>
+          </div>
+
+          <div class="col-md-6">
+            <div data-aos="zoom-in">
+              <p class="para">
+                Aquarium fish feeders are electric or electronic devices that
+                are designed to feed aquarium fish at regular intervals. They
+                are often used to feed fish when the aquarist is on vacation or
+                is too busy to maintain a regular feeding schedule.Another
+                concern of aquarists is overeating. Fish are not to be given too
+                much food. It is estimated that fish should be given as much as
+                they can eat in 3 to 5 minutes, and once a day. However, the
+                electronic fish feeders prevent overeating by releasing the
+                right quantity of food, at scheduled times. This way, aquarists
+                who have to get away for few days do not have to ask their
+                neighbours or friends to come over and take care of their pets.
+                It is often impossible to find a reliable person available and
+                willing to do such a favor. The electronic fish feeders are
+                therefore a solution for fish keepers who own aquariums and
+                which ensure that the pets are fed in a healthy way and on
+                schedule. There are multiple chambers within the electronic fish
+                feeder when the feeder rotates (clockwise); the food is released
+                at a set time. With the help of the feeder, feeding mixed food
+                to the fish, including fish flakes and fish pellets, becomes
+                more manageable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-6 my-3 vset">
+        <div data-aos="zoom-in">
+          <div class="col-md-6 p1"></div>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- ************************************************ -->
+    <!-- /////////////Animation side 1//////////// -->
+    <!-- ***************************************************** -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="fade-left">
+            <img
+              src="../../images/golden-barb.jpeg"
+              height="100%"
+              width="100%"
+              class="pic1"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-right">
+            <div class="GOLDEN-BARBS">
+              <h1>GOLDEN DWARF BARBS</h1>
+              <p class="para">
+                The golden barb or golden dwarf barb (Pethia gelius) is a
+                species of cyprinid fish native to inland waters in Asia, and is
+                found in Pakistan, India, and Bangladesh. It has also been
+                introduced to waters in Colombia. It natively inhabits rivers,
+                and standing water with a silty bottom. They live in a tropical
+                climate in water with a 6.0 - 6.5 pH, a water hardness of 8 - 15
+                dGH, and a temperature range of 68 - 77 °F (20 - 25 °C). It
+                feeds on benthic and planktonic crustaceans, and insects. This
+                species can grow in length up to 5.1 centimetres (2.0 in) TL. It
+                is sometimes known as "glass barb" but that is properly Puntius
+                guganio. It can also be found in the aquarium trade.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************************************************ -->
+    <!-- /////////////Animation side 2//////////// -->
+    <!-- ***************************************************** -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="fade-right">
+            <div class="GOLDEN-BARBS">
+              <h1>ZEBRA_LOACH</h1>
+              <p class="para">
+                Zebra loaches are omnivores. They will eat sinking catfish
+                pellets as well as tablets and flake foods. Supplement their
+                diet with live and frozen foods, such as brine shrimp,
+                bloodworms, daphnia, and mosquito larvae. They also eat
+                vegetables, such as algae wafers, cucumber, lettuce, or
+                zucchini. The zebra loach is a freshwater loach native to rivers
+                and streams in the Western Ghats of India. The maximum size is
+                about 9 cm. It lives in tropical climate with temperature range
+                of 21-26 °C, and prefers water with 6.0 to 7.5 pH. Zebra loaches
+                are peaceful fish suitable to community aquarium.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-left">
+            <img
+              src="../../images/Zebra-Loach.jpg"
+              height="100%"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************************************************ -->
+    <!-- /////////////Animation side 3//////////// -->
+    <!-- ***************************************************** -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="fade-left">
+            <img
+              src="../../images/326335-800x533-oscar-fish.webp"
+              height="100%"
+              width="100%"
+              class="pic1"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-right">
+            <div class="GOLDEN-BARBS">
+              <h1>oscar</h1>
+              <p class="para">
+                The oscar is a large, somewhat stocky cichlid with an oval
+                shaped body, a large head, large eyes, and a large mouth. The
+                first dorsal fin is spinous; the second is composed of soft rays
+                and has a rounded shape. The anal fin is spinous anteriorly and
+                also possesses a rounded edge.The main thing to remember is that
+                oscars are carnivorous and require a diet with proteins such as
+                shrimp, insects and smaller fish. The diet for oscar fish in
+                their natural environment consists primarily of larvae, insects,
+                fish, crustaceans and plant debris.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************************************************ -->
+    <!-- /////////////Animation side 4//////////// -->
+    <!-- ***************************************************** -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="fade-right">
+            <div class="GOLDEN-BARBS">
+              <h1>Angel Fish</h1>
+              <p class="para">
+                Angelfishes are native to the freshwaters of tropical South
+                America and may grow to a length of about 15 cm (6 inches). They
+                are commonly silvery with vertical dark markings but may be
+                solid or partially black. They are carnivorous and take care of
+                their eggs and young.In their natural habitats, angelfish are
+                technically omnivores, because they will sometimes consume -some
+                plant material. But mostly, they hunt for prey like small
+                crustaceans, insects, larvae and other meaty foods.Angelfish are
+                very peaceful as far as cichlids go. If you have a breeding
+                pair, expect them to become a little more aggressive, however,
+                especially with their own species. Angelfish will also defend
+                their nest site against any intruders after breeding The smaller
+                species are popular amongst aquarists, whereas the largest
+                species are occasionally sought as a food fish; however,
+                ciguatera poisoning has been reported as a result of eating
+                marine angelfish.As a species, freshwater angelfish are
+                typically fairly peaceful but they may not get along with very
+                small species. These fish can live ten years or longer and they
+                prefer to be kept in tanks with several of their own species.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-left">
+            <img
+              src="../../images/angelfish-1.jpg"
+              height="100%"
+              width="100%"
+              class="pic1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************************************************ -->
+    <!-- /////////////Animation side 5//////////// -->
+    <!-- ***************************************************** -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="fade-left">
+            <img
+              src="../../images/mandrin.jpg"
+              height="100%"
+              width="500px"
+              class="pic1"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-right">
+            <div class="GOLDEN-BARBS">
+              <h1>Mandrin</h1>
+              <p class="para">
+                Mandarin fish are carnivorous, feeding on live fish, shrimps and
+                other aquatic animals that are smaller than themselves,
+                particularly fish These little beauties are a small species only
+                reaching about 3 inches in length. This species is best known
+                for its ritual reproduction mating “dance” which only occurs
+                during sunset hours. Females will group together at the reef and
+                seek a male mate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************************************************ -->
+    <!-- /////////////Footer//////////// -->
+    <!-- ***************************************************** -->
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h4>Address</h4>
+          <p>L-203 sector 5/D DHA Clifton karachi</p>
+          <p>Karachi, Pakistan, 75850</p>
+          <p>0342 2611324</p>
+        </div>
+        <div class="col">
+          <h4>Services</h4>
+          <p>App Development</p>
+          <p>Web Development</p>
+          <p>Digital Marketing</p>
+        </div>
+
+        <div class="col">
+          <h4>Follow me on</h4>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"> Facebook</i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"> Twitter</i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-whatsapp"> Whatsapp</i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#"><p>Home</p></a></li>
+            <li><a href="../../pages/About/about.html" target="_blank"><p>About</p></a></li>
+            <li><a href="../../pages/contact/contact.html" target="_blank"><p>Contact</p></a></li>
+            <li><a href="../../pages/Species/gphotos.html" target="_blank"><p>Species</p></a></li>
+            <li><a href="../../pages/marine life/marine.html" target="_blank"><p>Marine Animal</p></a></li>
+            <li><a href="../../pages/Event/Event.html"><p>Event</p></a></li>
+            <li><a href="../../pages/online booking/online.html"><p>Online Booking</p></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h4>Timings</h4>
+          <p>Monday to Friday</p>
+          <p>10am to 11pm</p>
+          <p>Saturday to sunday</p>
+          <p>3pm to 12pm</p>
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <p>Copyright bcopy:2023 All right reserved</p>
+        </div>
+        <div class="col"></div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

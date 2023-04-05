@@ -1,0 +1,398 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  margin-top: 20px;
+
+  z-index: 00000;
+}
+.carousel-caption {
+  bottom: 10px;
+  z-index: 999999999;
+}
+.carousel-caption h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  z-index: 99999999;
+}
+p{
+  color: #fff;
+}
+.carousel-caption p {
+  width: 80%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.pic-b1 {
+  background-image: url(../../images/shop-6-copyright.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  /* color: #fff; */
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .navbar-link:hover {
+  color: #fff;
+}
+.w-100 {
+  height: 100vh;
+}
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background-color: #fff;
+}
+@media only screen and(max-width:767px) {
+  .navbar-nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption {
+    bottom: 100px;
+    width: 80%;
+  }
+  .carousel-caption h1 {
+    font-size: 17px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+}
+.ww1 {
+  /* background-image: url(../../images/grad2.jpg); */
+  /* background-size: cover; */
+  min-height: 300px;
+}
+.para{
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fcolor {
+  color: black;
+  text-align: center;
+  font-size: 70px;
+}
+.vset {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.p1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  color: #fff;
+  margin-left: 00px;
+  width: 50%;
+}
+.header {
+  height: 60px;
+  background-image: url(../../images/pexels-ivan-babydov-7787730.jpg);
+  background-size: cover;
+}
+
+.LOGO {
+  border-radius: 50%;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar-links:link,
+.navbar-links:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aliceblue;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 300px;
+  transition: all 0.3s;
+}
+
+.website-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.navbar-links:hover,
+.navbar-links:active {
+  color: aquamarine;
+}
+
+.mobile-navbar-btn {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.mobile-nav-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-nav-icon[name="close-circle"] {
+  display: none;
+}
+
+/* .fcolor {
+  color: white;
+  font-style: italic;
+} */
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* //////////////buttons//////// */
+.btn-main {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 100px; */
+  /* margin-top: 100px; */
+  background: #fff;
+}
+.btn {
+  width: 150px;
+  height: 150px;
+  background-image: url(../../images/btn1.jpg);
+  background-size: cover;
+  /* background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff; */
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.btn2 {
+  width: 150px;
+  height: 150px;
+  background-image: url(../../images/clams.jpg);
+  background-size: cover;
+  /* background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff; */
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.btn3 {
+  width: 150px;
+  height: 150px;
+  background-image: url(../../images/feeding.webp);
+  background-size: cover;
+  /* background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff; */
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+.btn2 span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+.btn3 span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  background-image: url(../../images/beuty.webp);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.btn-text-one2 {
+  position: absolute;
+  background-image: url(../../images/btn2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.btn-text-one3 {
+  position: absolute;
+  background-image: url(../../images/Feeding-Koi.webp);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  color: black;
+  transform: translateY(-50%);
+}
+.btn-text-two2 {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.btn-text-two3 {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+.btn2:hover .btn-text-one2 {
+  top: -100%;
+}
+.btn3:hover .btn-text-one3 {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
+}
+.btn2:hover .btn-text-two2 {
+  top: 50%;
+}
+.btn3:hover .btn-text-two3 {
+  top: 50%;
+}
+
+body {
+  background-image: url(../../images/gradient2.jpg);
+  background-size: cover;
+}
+
+/* /////////////footer////////// */
+
+footer {
+  width: 100%;
+  position: absolute;
+  background-image: url(../../images/pexels-ivan-babydov-7787730.jpg);
+  background-size: cover;
+  color: white;
+  padding: 80px 0px 30px;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  color: whitesmoke;
+}
+
+i {
+  color: white;
+  font-weight: 100;
+  font-weight: lighter;
+}
+
+i:hover {
+  color: yellow;
+}
+
+@media screen and (max-width: 994px) {
+  .navMobileMode {
+    margin-top: -20px;
+  }
+}

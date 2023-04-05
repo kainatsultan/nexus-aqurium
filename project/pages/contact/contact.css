@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    height: 60px;
+    background-image: url(../../images/pexels-ivan-babydov-7787730.jpg);
+    background-size: cover;
+  }
+  
+  .LOGO {
+    border-radius: 50%;
+  }
+  
+  .navbar-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  
+  .navbar-links:link,
+  .navbar-links:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 300px;
+    transition: all 0.3s;
+  }
+  
+  .website-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+  }
+  
+  .navbar-links:hover,
+  .navbar-links:active {
+    color: aquamarine;
+  }
+  
+  .mobile-navbar-btn {
+    display: none;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .mobile-nav-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .mobile-nav-icon[name="close-circle"] {
+    display: none;
+  }
+  
+  /* .fcolor {
+    color: white;
+    font-style: italic;
+  } */
+ 
+  .navbar-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+ 
+  }
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .navbar-light .navbar-brand:focus,
+  .navbar-light .navbar-brand:hover {
+    color: #fff;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .navbar-link:hover {
+    color: #fff;
+  }
+  .w-100 {
+    height: 100vh;
+  }
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background-color: #fff;
+  }
+  @media only screen and(max-width:767px) {
+    .navbar-nav {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }  
+  body {
+    font-family: sans-serif;
+    /* overflow: hidden; */
+  }
+  .contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../images/contactbackground.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact:before {
+    content: "";
+    background-image: url(../../images/gradient2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 50%;
+  }
+  .contact form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    /* border: 1px solid black; */
+    border-radius: 10%;
+    width: 33%;
+    background-image: url(../../images/contactbackground.jpg);
+    background-size: cover;
+  }
+  .contact form input {
+    margin: 5px;
+    height: 20pxpx;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 1px solid black;
+    /* border-radius: 20%; */
+  }
+  .contact form textarea {
+    margin: 5px;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 1px solid black;
+    /* border-radius: 10%; */
+  }
+  .contact form button {
+    align-self: start;
+    padding: 8px 10px 8px 10px;
+    background-color: grey;
+    color: white;
+    /* border: 1px solid black; */
+  
+    border-radius: 20% 0%;
+  }
+  .contact form h1 {
+    padding: 0px 0px 10px 5px;
+  }
+  @media screen and (max-width: 768px) {
+    .contact form {
+      width: 80%;
+      padding: 20px;
+    }
+    .contact:before {
+      border-radius: 15% 15%;
+    }
+  }
+   /* /////////////footer////////// */
+
+footer {
+    width: 100%;
+    position: absolute;
+    background-image: url(../../images/pexels-ivan-babydov-7787730.jpg);
+    background-size: cover;
+    color: white;
+    padding: 80px 0px 30px;
+  }
+  
+  .row {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .col {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  h4 {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: whitesmoke;
+  }
+  
+  i {
+    color: white;
+    font-weight: 100;
+    font-weight: lighter;
+  }
+  
+  i:hover {
+    color: yellow;
+  }
+  
+  @media screen and (max-width: 994px) {
+    .navMobileMode {
+      margin-top: -20px;
+    }
+  }
+  
+    
+    
+    
+    

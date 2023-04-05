@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  height: 60px;
+  background-image: url(../../images/pexels-ivan-babydov-7787730.jpg);
+  background-size: cover;
+}
+
+.LOGO {
+  border-radius: 50%;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar-links:link,
+.navbar-links:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aliceblue;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 300px;
+  transition: all 0.3s;
+}
+
+.website-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.navbar-links:hover,
+.navbar-links:active {
+  color: aquamarine;
+}
+
+.mobile-navbar-btn {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.mobile-nav-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-nav-icon[name="close-circle"] {
+  display: none;
+}
+
+
+.navbar-nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .navbar-link:hover {
+  color: #fff;
+}
+.w-100 {
+  height: 100vh;
+}
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background-color: #fff;
+}
+@media only screen and(max-width:767px) {
+  .navbar-nav {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}  
+
+/* /////////About.//////// */
+.wrappar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.background-color {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+.bg-1 {
+  flex: 1;
+  background-image: url("../../images/bgAbout.jpg");
+  background-size: cover;
+}
+.about-container {
+  width: 85%;
+  /* min-height: 88vh; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 24px 24px 30px #6d8dad;
+}
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.text-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+  color: black;
+}
+.text-container h1 {
+  color: black;
+  font-size: 50px;
+  padding: 10px 0px;
+  box-shadow: 4px 4px #6d8dad;
+}
+.text-container p {
+  font-size: 17px;
+  padding: 10px 0px;
+  font-style: italic;
+  font-family: initial;
+}
+
+/* @media screen and (max-width: 1600px) {
+  .about-container {
+    width: 90%;
+  }
+  .image-container {
+    width: 400px;
+    height: 400px;
+  }
+  .text-container {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .text-container {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .image-container {
+    width: 300px;
+    height: 300px;
+  }
+  .text-container p {
+    font-size: 8px;
+  }
+} */
+
+@media screen and (max-width: 968px) {
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-container{
+    margin-top: 300px;
+    margin-bottom: 300px;
+
+  }
+  .wrappar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .image-container img {
+    width: 100%;
+  }
+}
+ /* /////////////footer////////// */
+
+ footer {
+  width: 100%;
+  position: absolute;
+  background-image: url(../../images/pexels-ivan-babydov-7787730.jpg);
+  background-size: cover;
+  color: white;
+  padding: 80px 0px 30px;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  color: whitesmoke;
+}
+
+i {
+  color: white;
+  font-weight: 100;
+  font-weight: lighter;
+}
+
+i:hover {
+  color: yellow;
+}
+
+@media screen and (max-width: 994px) {
+  .navMobileMode {
+    margin-top: -20px;
+  }
+}
+
+  
+  
+  
+  
